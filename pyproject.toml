@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jd-product-image-downloader"
+version = "0.1.0"
+description = "Documented standalone example of JD product and detail image discovery, downloading and verification"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+browser = ["camoufox==0.5.5", "playwright==1.60.0", "platformdirs==4.11.3"]
+
+[project.scripts]
+jd-images = "jd_images.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

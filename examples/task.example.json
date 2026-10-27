@@ -1,0 +1,9 @@
+{
+  "contractVersion": 1,
+  "sessionRelative": "sessions/example-only",
+  "referer": "https://item.jd.com/123456789012.html",
+  "tasks": [
+    {"category": "MAIN_IMAGE", "url": "https://img10.360buyimg.com/jfs/example-main.jpg"},
+    {"category": "DETAIL_IMAGE", "url": "https://img30.360buyimg.com/jfs/example-detail.jpg"}
+  ]
+}

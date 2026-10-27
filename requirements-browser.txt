@@ -1,0 +1,4 @@
+# Only needed for live browser collection; offline tests use Python's standard library.
+camoufox==0.5.5
+playwright==1.60.0
+platformdirs==4.11.3
